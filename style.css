@@ -4,13 +4,35 @@
     box-sizing: border-box;
 }
 
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  .container{
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+
+  .parent{
+    background-image: url(./portfolio-resources/images/developer.png),url(./portfolio-resources/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+  }
+
+
+
 
 
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 70px;
+    padding: 0 70px;
+    margin-top: 30px;
 
 }
 
@@ -35,3 +57,73 @@ nav ul button{
     background-color: chocolate;
     padding: 10px;
 }
+
+    /* Banner Text */
+
+  .text{
+    width: 400px;
+    
+  }
+
+
+  .text h4{
+    margin-bottom: 15px;
+  }
+
+  .text h1{
+    margin-bottom: 10px;
+  }
+
+
+  .img img{
+    width: 300px;
+    display: inline-block;
+    margin-right: 50px;
+  }
+
+  .banner-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+
+
+  .banner-text{
+    margin-left: 70px;
+  }
+
+
+  .btn{
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    
+  }
+
+
+  /* about sec */
+
+  .about-sec{
+
+    width: 800px;
+    margin: 0 auto;
+    padding: 50px ;
+    background-color: #FFFFFF;
+
+  }
+
+
+  .about-text{
+    text-align: center;
+  }
+
+
+  .about-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 40px;
+  }
